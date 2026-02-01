@@ -1,53 +1,96 @@
-# 🥰 Always Be Mine 🥰
+# 💕 AlwaysMine - Valentine's Day Proposal Website
 
-## Welcome to the **Valentine Proposal Website Template**! 💖
-
-**AlwaysBeMine** is a delightful and romantic web template designed to ask someone special, "Will you be my Valentine?" With its cute design, charming animations, and heartfelt message, this website template offers a unique and memorable way to express your feelings. Whether you're celebrating Valentine's Day or just want to spread love, this project is sure to make the moment unforgettable.
-
-This template combines creativity and coding to create an experience that will leave a lasting impression. It's perfect for anyone looking to make their proposal or message stand out in a special & unique way. ❤️
+A beautiful, interactive Valentine's Day proposal website built with React and Vite. Features animated GIFs, music, and a playful "mouse stealer" component that makes saying "no" increasingly difficult!
 
 ## ✨ Features
 
-- **Playful Animations**: Enjoy a fun, engaging user experience with cute and playful animations.
-- **Interactive Elements**: Add exciting touches such as animations, background music, or surprise pop-ups to personalize your message.
-- **Images**: Lovely images and heartwarming messages.
-- **Beautiful Tag Lines**: Attractive and Loving Tag Lines.
-- **Sharing Options**: Share your virtual card easily via:
-  - **Social Media**: Share directly on your favorite platforms.
+- 🎵 **Dynamic Music** - Different songs for "Yes" and "No" responses
+- 🎭 **Animated GIFs** - Cute animations that change based on user interaction
+- 🖱️ **Mouse Stealer** - Playful component that "steals" the cursor when hovering over "No"
+- 💖 **Floating Emojis** - Heart and sad emojis appear on button hover
+- 🎨 **3D Background** - Beautiful Spline 3D scene
+- 📱 **Responsive Design** - Works on all devices
 
-## 🚀 Getting Started
+## 🚀 Live Demo
 
-To get started with this project, follow these steps:
+[View Live Website](https://your-vercel-url.vercel.app)
 
-1. **Star the [Main Repository](https://github.com/UjjwalSaini07/AlwaysBeMine)**
-2. **Fork The [Repository](https://github.com/UjjwalSaini07/AlwaysBeMine) (If u Want to Contribute Then use this Step)**
-3. **Clone the repository**
-4. **Install the Dependancies `npm/pnpm install`**
-5. **Start the development server with `npm/pnpm run dev`**
+## 🛠️ Technologies Used
 
-## 📷 ScreenShots
+- **React** - Frontend framework
+- **Vite** - Build tool and dev server
+- **Tailwind CSS** - Styling
+- **Spline** - 3D background animations
+- **SweetAlert2** - Beautiful popup modals
 
-Here’s a sneak peek of what you can expect from the template:
-![image](https://github.com/user-attachments/assets/25282fce-12f0-4c0a-95ce-cda95a305e28)
-![image](https://github.com/user-attachments/assets/40beacf0-b509-47cd-be7e-a97f8e98156c)
-![image](https://github.com/user-attachments/assets/ef5827e6-8c1f-4351-80ed-2f2d940416d4)
+## 📦 Installation
 
-## ❤️ Why You’ll Love It
-- **Thoughtful and Personal**: Perfect for creating a heartfelt Valentine’s Day message or just a spontaneous declaration of love.
-- **User-Friendly**: Simple to use, no coding skills required.
-- **Creative**: Bring your ideas to life with interactive web elements.
+1. Clone the repository:
+```bash
+git clone https://github.com/ankitkumar565/AlwaysMine.git
+cd AlwaysMine
+```
 
-## 💕 Made with Love
-This project made with love by [Ujjwal](https://github.com/UjjwalSaini07). </br>Feel free to use it to ask your own special someone to be your Valentine! & express your feeling in unique and memorable way..
+2. Install dependencies:
+```bash
+npm install
+```
+
+3. Start the development server:
+```bash
+npm run dev
+```
+
+4. Open [http://localhost:5173](http://localhost:5173) in your browser
+
+## 🎯 How It Works
+
+1. **Initial Question**: "Will you be my Valentine?"
+2. **Yes Response**: Shows love animations and plays romantic music
+3. **No Response**: 
+   - Button text changes to increasingly desperate messages
+   - Plays sad/rejection music
+   - After multiple "No" clicks, activates mouse stealer
+   - Eventually shows heartfelt popup messages
+
+## 🎨 Customization
+
+- **Music**: Replace audio files in `src/assets/AudioTracks/`
+- **GIFs**: Update animations in `src/assets/GifData/`
+- **Messages**: Modify button text and popup messages in `App.jsx`
+- **Styling**: Customize colors and animations in Tailwind classes
+
+## 📁 Project Structure
+
+```
+src/
+├── assets/
+│   ├── AudioTracks/     # Music files
+│   ├── GifData/         # Animation GIFs
+│   └── ...
+├── Preloaders/          # Loading components
+├── App.jsx              # Main component
+├── MouseStealer.jsx     # Mouse stealing component
+├── MarqueeProposal.jsx  # Scrolling text component
+└── ...
+```
+
+## 🤝 Contributing
+
+Feel free to fork this project and make it your own! Some ideas:
+- Add more animations
+- Include different music genres
+- Create themed versions (Christmas, Birthday, etc.)
+- Add more interactive elements
 
 ## 📄 License
-License Credential [Check](https://github.com/UjjwalSaini07/AlwaysBeMine/blob/main/LICENSE). </br>You can use this project the way you want. Feel free to credit me if you want to!
 
-## 💌 Feedback and Contributions
-Feedback and contributions are always welcome! Feel free to open an [Issue](https://github.com/UjjwalSaini07/AlwaysBeMine/issues/new).
+This project is open source and available under the [MIT License](LICENSE).
 
-<div align="center">
-    <a href="#top">
-        <img src="https://img.shields.io/badge/Back%20to%20Top-000000?style=for-the-badge&logo=github&logoColor=white" alt="Back to Top">
-    </a>
-</div>
+## 💝 Made with Love
+
+Created with ❤️ by [Ankit](https://github.com/ankitkumar565)
+
+---
+
+⭐ If you liked this project, please give it a star on GitHub!

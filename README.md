@@ -83,9 +83,7 @@ Feel free to fork this project and make it your own! Some ideas:
 - Create themed versions (Christmas, Birthday, etc.)
 - Add more interactive elements
 
-## 📄 License
 
-This project is open source and available under the [MIT License](LICENSE).
 
 ## 💝 Made with Love
 
